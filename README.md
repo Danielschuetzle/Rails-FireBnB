@@ -22,32 +22,18 @@ Make sure you have the following installed:
 
 Installing
 
-    Clone this repository locally:
-
-git clone https://github.com/username/firebnb.git
-cd firebnb
-
-    Install dependencies:
+    Clone this repository locally: git clone https://github.com/username/firebnb.git
+    cd firebnb
 
 
-bundle install
-yarn install
+    Install dependencies:bundle install
+    yarn install
+    
+ 
+    Setup the database: rails db:create db:migrate
 
-    Setup the database:
 
-rails db:create db:migrate
+    Start the server:rails server
 
-    Start the server:
-
-rails server
 
 Once the server is running, you can visit http://localhost:3000 to view the app!
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check issues page.
-📜 License
-
-The project is available as open source under the terms of the MIT License.
-Show your support
-
-Give a ⭐️ if this project helped you!
