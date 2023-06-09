@@ -24,27 +24,20 @@ Installing
 
     Clone this repository locally:
 
-bash
-
 git clone https://github.com/username/firebnb.git
 cd firebnb
 
     Install dependencies:
 
-bash
 
 bundle install
 yarn install
 
     Setup the database:
 
-bash
-
 rails db:create db:migrate
 
     Start the server:
-
-bash
 
 rails server
 
